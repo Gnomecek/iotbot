@@ -1,0 +1,8 @@
+menu "Discord Bot"
+
+    config DISCORD_CHANNEL_ID
+        string "Bot Channel Id"
+        help
+            Default channel Id bot sends messages to 
+
+endmenu
